@@ -1,0 +1,129 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+  }
+
+.nav_right ul, .nav_left ul{
+    display: flex;
+    align-items: center;
+
+}
+.nav_right ul li, .nav_left ul li{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.nav_right, .nav_left{
+    display: flex;
+    align-items: center;
+}
+
+.bg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background: rgb(47, 46, 46);
+    width: 100vw;
+    position: fixed;
+    z-index: -3;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin: 2em;
+    /* background-color: aqua; */
+    border: 0.5ex solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    border-radius: 20px;
+    padding: 1em;
+    width: 18rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_title{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: #fff;
+    text-transform: capitalize;
+}
+.card_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin: 1em 0em;
+    color: #fff;
+}
+.center h1{
+    color: rgb(75, 72, 72);
+}
+.home{
+    position: relative;
+}
+
+.done{
+    display: none;
+}
+
+.dash{
+    width: 50rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.todo{
+    border: 0.5ex solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.todo_head{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.dash_todo-head{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+.btn button{
+ margin: 0 1em;
+}
+
+.dash_des{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.show_todo_dash{
+    margin-top: 3rem;
+}
+
+.btn {
+    background-color: #020202;
+    border: none;
+    color: white;
+    padding: 0.5em 0.6em;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
